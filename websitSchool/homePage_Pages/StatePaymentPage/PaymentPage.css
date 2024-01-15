@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    font-family: cursive;
+    background: #087671;
+}
+
+/*fees*/
+.va {
+    color: #f0f3fa;
+    position: relative;
+    min-height: 100vh;
+    padding: 200px 200px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    border-bottom: 1px solid #3131315e;
+
+}
+
+.va h4 {
+    text-decoration: underline;
+}
+
+.va .table1 table {
+
+    color: #087671;
+    background: #f0f3fa;
+    width: 60%;
+    height: 300px;
+    /* Set the width of the table */
+    border-collapse: collapse;
+    /* Collapse table borders */
+    margin: 20px;
+    /* Add some margin for spacing */
+}
+
+.va .table1 table,
+ul {
+    width: 60%;
+    height: 300px;
+    /* Set the width of the table */
+    border-collapse: collapse;
+    /* Collapse table borders */
+    margin: 20px;
+    /* Add some margin for spacing */
+}
+
+.va .table1 th,
+td {
+    border: 1px solid #ddd;
+    /* Add a border to cells */
+    padding: 10px;
+    /* Add padding to cells */
+    text-align: left;
+    /* Align text to the left within cells */
+}
+
+.va .table1 tr:nth-child(even) {
+    background-color: #91d0dd;
+}
+
+@media screen and (max-width: 550px) {
+    .image-list img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .image-list img {
+        width: calc(100% / 2);
+    }
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    background: #098982;
+}
+
+.logo {
+    width: 90px;
+}
+
+.logo_li a {
+    font-size: 20px;
+
+}

@@ -1,0 +1,145 @@
+/*all*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body,
+html {
+    font-family: cursive;
+    background: #043f70;
+}
+
+/*news*/
+.width-100 {
+
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 1500px;
+    margin: 0px auto;
+
+}
+
+.top-header {
+    position: fixed;
+    background: #033055;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+
+.news-list {
+    background: #fff;
+    color: rgb(118, 5, 5);
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+
+}
+
+/*overview*/
+.Overview {
+
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    border-bottom: 1px solid #3131315e;
+    background: #043f70;
+}
+
+.Overview h3,
+h5 {
+    font-family: cursive;
+    font-size: 20px;
+    color: #f0f3fa;
+}
+
+.Overview h1,
+h3 {
+    color: #f0f3fa;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/*Announcements , Events*/
+#why_choose h1 {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.div_section1 {
+    width: 30%;
+    height: 30px;
+    margin: 130px;
+    float: left;
+
+}
+
+.icon_section {
+
+    margin: 10px auto;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.icon_section:hover {
+    font-size: 21px;
+}
+
+/*calender*/
+.cal {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 60px;
+
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    border-bottom: 1px solid #3131315e;
+    background: #043f70;
+    box-sizing: border-box;
+}
+
+.cal .calender .cal-item {
+    background: #033055;
+    padding: 5px 0px;
+    color: #f0f3fa;
+
+    border-bottom: 1px solid #3131315e;
+}
+
+.cal .calender .cal-item-white {
+    background: #f0f3fa95;
+    color: #033055;
+
+}
+
+.cal .calender .cal-item-white2 {
+    background: #f0f3fa26;
+    color: #033055;
+
+}
+
+.cal .calender .cal-item-white2 :hover {
+    background: #f0f3fa85;
+}
+
+.cal .calender .cal-item-white :hover {
+    background: #f0f3fa85;
+}

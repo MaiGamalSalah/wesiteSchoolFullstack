@@ -1,0 +1,191 @@
+/*navbar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    align-items: border-box;
+    justify-content: center;
+    min-height: 100vh;
+    background: #343f4f;
+    padding: 0 35px;
+}
+
+
+
+.menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    position: fixed;
+    background: #343f4f;
+    color: #fff;
+    font-family: cursive;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.menu li {
+    background-color: #48566c;
+    margin-left: 60px;
+    list-style: none;
+    width: 160px;
+    height: 90px;
+    line-height: 90px;
+    float: left;
+    text-align: center;
+}
+
+.menu li :hover {
+    background: #343f4f;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 90px;
+}
+
+.logo_li a {
+    font-size: 20px;
+
+}
+
+
+
+body .logo_li a:hover {
+    color: white !important;
+
+}
+
+/*banner*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.slider_wrapper i {
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    line-height: 46px;
+    background: #fff;
+    border-radius: 50px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.slider_wrapper i:first-child {
+    left: -5px;
+    top: 300px;
+
+}
+
+.slider_wrapper i:last-child {
+    right: 0px;
+    top: 300px;
+}
+
+.slider_wrapper .image-list {
+    white-space: nowrap;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image-list img {
+    margin-top: 100px;
+    padding-top: 50px;
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+
+.slider_wrapper img:first-child {
+    margin-left: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .image-list img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .image-list img {
+        width: 100%;
+    }
+}
+
+/*Vision and Mission*/
+#why_choose {
+    width: 100%;
+    text-align: center;
+}
+
+#why_choose h1 {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+    border-bottom: 2px solid darkred;
+}
+
+.div_section1 {
+    width: 30%;
+    height: 300px;
+    margin: 130px;
+    float: left;
+
+
+}
+
+.div_section1 p,
+h2 {
+    color: #fff;
+}
+
+.icon_section {
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.icon_section:hover {
+    font-size: 40px;
+}
